@@ -1,6 +1,5 @@
 .authenty {
   font-family: 'Open Sans', sans-serif;
-  background-color: #eaeaea;
 }
 .authenty [data-animation] {
   opacity: 0;
@@ -52,7 +51,7 @@
   margin-top: 20px;
 }
 .authenty.signin-main {
-  background-color: #eaeaea;
+
 }
 .authenty.signin-main .title {
   text-align: center;
