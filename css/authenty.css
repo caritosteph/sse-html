@@ -72,7 +72,7 @@
   padding: 20px 0;
   text-align: center;
   border-radius: 10px 10px 0 0;
-  background-color: #ffffff;
+  background-color: #FCFAFA;
 }
 .authenty.signin-main .form-header .fa-user {
   font-size: 50px;
@@ -157,7 +157,7 @@
 .authenty.signin-main .signin {
   padding-top: 10px;
   padding-bottom: 10px;
-  background-color: #FF8627;
+  background-color: #DE5151;
   color: #ffffff;
   -webkit-transition: background-color 300ms linear;
   -moz-transition: background-color 300ms linear;
@@ -166,16 +166,16 @@
   transition: background-color 300ms linear;
 }
 .authenty.signin-main .signin:hover {
-  background-color: #ff6610;
+  background-color: #EC352D;
 }
 .authenty.signin-main input[type="text"],
 .authenty.signin-main input[type="password"] {
-  background-color: #404040;
+  background-color: #FCF8F8;
   padding-left: 20px;
   border-radius: 0;
   border: none;
   margin-bottom: 10px;
-  color: #cccccc;
+  color: #000000;
   height: 43px;
 }
 .authenty.signin-main .bounceIn {
