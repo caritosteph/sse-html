@@ -335,7 +335,7 @@ section.section {
 	background-image: url(../img/parallax/img1.jpg);
 }
 #parallax2{	
-	background-image: url(../img/parallax/img2.jpg);
+	background-image: url(../img/muro.jpg);
 }
 #testimonials{	
 	background-image: url(../img/parallax/img3.jpg);
@@ -880,6 +880,10 @@ div.cform-response-output {
 section#footer {
 	background: #DE5151;
 	margin: 0;
+	padding-top: 20px;
+	padding-bottom: 0px;
+	color:white;
+
 }
 
 section#footer .copyright {
