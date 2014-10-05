@@ -38,9 +38,9 @@
   color: #fff;
 }
 .authenty .form-control:focus {
-  border-color: #FF0014;;
-  box-shadow: inset 0 4px 4px rgba(0, 0, 0, 0.075), 0 0 15px rgba(255, 0, 10, 0.6);
-  -webkit-box-shadow: inset 0 4px 4px rgba(0, 0, 0, 0.075), 0 0 15px rgba(255, 0, 10, 0.6);
+  border-color: #570505;;
+  box-shadow: inset 0 4px 4px rgba(0, 0, 0, 0.075), 0 0 35px rgba(68, 0, 4, 0.6);
+  -webkit-box-shadow: inset 0 4px 4px rgba(0, 0, 0, 0.075), 0 0 35px rgba(68, 0, 4, 0.6);
   transition: border-color 0.11s, box-shadow 0.11s;
   -webkit-transition: border-color 0.11s, box-shadow 0.11s;
 }
@@ -522,8 +522,12 @@
   color: #000000;
 }
 .authenty.signup-wizard .form-control:focus {
-  border: none;
-  box-shadow: 0 0 5px #ede06b;
+    border-color: #570505;;
+  box-shadow: inset 0 4px 4px rgba(0, 0, 0, 0.075), 0 0 35px rgba(68, 0, 4, 0.6);
+  -webkit-box-shadow: inset 0 4px 4px rgba(0, 0, 0, 0.075), 0 0 35px rgba(68, 0, 4, 0.6);
+  transition: border-color 0.11s, box-shadow 0.11s;
+  -webkit-transition: border-color 0.11s, box-shadow 0.11s;
+  
 }
 .authenty.signup-wizard .nav-step {
   margin-bottom: 10px;
@@ -626,7 +630,6 @@
   }
 }
 .authenty.password-recovery {
-  background-color: #e9e8da;
 }
 .authenty.password-recovery .wrap {
   padding-top: 250px;
@@ -637,15 +640,19 @@
   margin: 0 auto;
 }
 .authenty.password-recovery .form-control:focus {
-  border: none;
-  box-shadow: 0 0 5px #78b310;
+  
+  border-color: #9BD6E9;
+  box-shadow: inset 0 4px 4px rgba(0, 0, 0, 0.075), 0 0 35px rgba(80, 210, 200, 0.6);
+  -webkit-box-shadow: inset 0 4px 4px rgba(0, 0, 0, 0.075), 0 0 35px rgba(80, 210, 200, 0.6);
+  transition: border-color 0.11s, box-shadow 0.11s;
+  -webkit-transition: border-color 0.11s, box-shadow 0.11s;
 }
 .authenty.password-recovery input[type="email"] {
   box-shadow: none;
   padding-left: 10px;
   margin-bottom: 20px;
   height: 45px;
-  color: #505050;
+  color: ##000000;
 }
 .authenty.password-recovery .brand {
   text-align: center;
@@ -677,7 +684,7 @@
 .authenty.password-recovery .reset {
   padding: 10px 15px;
   border-radius: 3px;
-  background-color: #78b310;
+  background-color: #E02525;
   color: #ffffff;
   -webkit-transition: background-color 300ms linear;
   -moz-transition: background-color 300ms linear;
@@ -686,7 +693,7 @@
   transition: background-color 300ms linear;
 }
 .authenty.password-recovery .reset:hover {
-  background-color: #8cc735;
+  background-color: #A0201A;
 }
 .authenty.password-recovery .reset:active {
   border-radius: 3px!important;
