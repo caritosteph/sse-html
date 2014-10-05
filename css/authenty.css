@@ -72,7 +72,7 @@
   padding: 20px 0;
   text-align: center;
   border-radius: 10px 10px 0 0;
-  background-color: #A09F9F;
+  background-color: #813F3F;
 }
 .authenty.signin-main .form-header .fa-user {
   font-size: 50px;
@@ -124,7 +124,7 @@
   transition: color 700ms linear;
 }
 .authenty.signin-main .form-main {
-  background-color: #505050;
+  background-color: #DE5151;
   padding: 40px 50px;
 }
 .authenty.signin-main .form-footer {
@@ -157,7 +157,7 @@
 .authenty.signin-main .signin {
   padding-top: 10px;
   padding-bottom: 10px;
-  background-color: #DE5151;
+  background-color: #E02525;
   color: #ffffff;
   -webkit-transition: background-color 300ms linear;
   -moz-transition: background-color 300ms linear;
@@ -166,7 +166,7 @@
   transition: background-color 300ms linear;
 }
 .authenty.signin-main .signin:hover {
-  background-color: #EC352D;
+  background-color: #A0201A;
 }
 .authenty.signin-main input[type="text"],
 .authenty.signin-main input[type="password"] {
@@ -557,11 +557,11 @@
 }
 .authenty.signup-wizard .page-container {
   padding: 60px;
-  background-color: #444444;
+  background-color: #DE5151;
   height: 250px;
   text-align: center;
   margin: 0;
-  color: #cccccc;
+  color: #FFFEFE;
 }
 .authenty.signup-wizard .page-footer {
   text-align: center;
@@ -570,30 +570,30 @@
   text-align: left;
   padding: 10px;
   margin-top: 13px;
-  border: 1px solid #505050;
-  background-color: #333333;
+  border: 1px solid #FFF7F7;
+  background-color: #FFF9F9;
 }
 .authenty.signup-wizard .step-confirm div {
   font-size: 13px;
   margin: 5px;
 }
 .authenty.signup-wizard .step-confirm div div:first-child {
-  color: #999999;
+  color: #000000;
 }
 .authenty.signup-wizard .step-wrap {
   padding: 20px;
-  background-color: #444444;
+  background-color: #813F3F;
 }
 .authenty.signup-wizard .step-wrap span {
-  color: #999999;
+  color: #F3ECEC;
 }
 .authenty.signup-wizard .btn-wrap div {
   padding: 0;
 }
 .authenty.signup-wizard .nav-step-btn {
-  background-color: #2b2b2b;
+  background-color: #471717;
   padding: 15px;
-  color: #cccccc;
+  color: #F5F0F0;
 }
 .authenty.signup-wizard .nav-step-btn:active {
   outline: none;
@@ -602,7 +602,7 @@
   outline: none;
 }
 .authenty.signup-wizard #prev button {
-  background-color: #333333;
+  background-color: #472828;
 }
 .authenty.signup-wizard .invisible {
   visibility: hidden;
