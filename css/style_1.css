@@ -76,7 +76,7 @@ Header Section
   min-height: 400px;
   background: white;
   text-align: center;
-  border-bottom: 20px solid #e1e1e1;
+  border-bottom: 20px solid #DE5151;
   padding-bottom: 25px;
   margin-bottom: 10px;
   box-shadow: 0 10px 0 #36546d;
@@ -823,7 +823,7 @@ Main Section Section
 }
 .bg-line {
   height: 15px;
-  background: #e1e1e1 url(../images/bg-line.png) repeat-x center bottom;
+  background: #DE5151 ;
 }
 .body-content,
 .body-portrait {
