@@ -33,7 +33,7 @@ body h6 {
 /* wrapper page section */
 #wrapper {
   display: none;
-  padding: 60px 0 0;
+  padding: 0px 0 0;
 }
 #wrapper #backtotop {
   position: absolute;
