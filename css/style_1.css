@@ -1000,15 +1000,25 @@ a.configuration {
 
 a.arrow-back{
   position: fixed;
-  top: 310px;
+  display: block;
+  top: 200px;
+  background: white;
+  color: #005580;
   padding: 5px 15px;
+  font-size: 14px;
   width: 40px;
-  height: 40px;
+  z-index: 12;
+  height: 34px;
+  overflow: hidden;
+  text-decoration: none;
+  box-shadow: 0 0 0 3px #e1e1e1;
+  border-radius: 0 5px 5px 0;
   transition: all 0.3s ease 0s;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   -ms-transition: all 0.3s ease 0s;
+}
 }
 
 a.configuration:hover {

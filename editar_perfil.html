@@ -20,6 +20,17 @@
     <link rel="stylesheet" href="skin/default.css">
     <link rel="shortcut icon" href="img/favicon.ico" />
 
+    <!-- para editar -->
+    <link href="css/bootstrap-editable.css" rel="stylesheet">
+
+    <!-- creo q no sirven -->
+    <link href="css/address.css" rel="stylesheet">
+    <link href="css/select2-bootstrap.css" rel="stylesheet">
+    <link href="css/select2.css" rel="stylesheet">
+    <link href="css/typeahead.js-bootstrap.css" rel="stylesheet">
+    <!-- fin no sirve -->
+
+    <!-- fin para editar -->
 
   <body>
     <!-- =========
@@ -66,14 +77,12 @@
                 <div class="box-note">
                   <div id="slider-note" class="carousel slide" data-ride="carousel" data-interval="10000">
                     <div class="carousel-inner">
-                    <a href="javascript:void(0)" class="btn btn-sm btn-flat pull-rigt "><span class="glyphicon glyphicon-pencil"></span></a>
                       <div class="item active">
-                        Estudiante de 10mo ciclo de Ingeniería de Software.
+                        <a href="#" id="comments" data-type="textarea" data-pk="1" data-placeholder="Your comments here..." data-title="Enter comments" class="editable editable-pre-wrapped editable-click" style="display: inline; background-color: rgba(0, 0, 0, 0);">
+                          Estudiante de 10mo ciclo de Ingeniería de Software.
                         Con predisposición para programación web y movil.
-                      </div>
-                      <div class="item">
-                        Estoy disponible para freelance, si necesitas mis servicios, 
-                        por favor envíeme un correo electrónico :)
+                        </a>
+
                       </div>
                     </div>
                   </div>
@@ -86,7 +95,7 @@
                 Start portrait image Section
                 ===================================-->
                 <div class="portrait-img-area">
-                  <img src="img/avatar.jpg" alt="avatar" class="avatar"/>
+                  <img src="img/avatar-.jpg" alt="avatar" class="avatar"/>
                   <div class="profile-links">
                     <a href="https://www.facebook.com/ksadhu89" class="facebook"  data-toggle="tooltip" data-placement="left" title="Facebook"><i class="fa fa-facebook"></i></a>
                     <a href="" class="twitter"  data-toggle="tooltip" data-placement="right" title="Twitter"><i class="fa fa-twitter"></i></a>
@@ -155,7 +164,7 @@
                     ===================================-->
                     <div class="row">
                       <div class="col-md-3 text-center">
-                        <img src="img/avatar.jpg" alt="avatar" class="img-responsive img-profile">
+                        <img src="img/avatar-.jpg" alt="avatar" class="img-responsive img-profile">
                       </div>
                       <div class="col-md-9">
                         <div class="mini-desc">
@@ -613,11 +622,12 @@
     ===================================-->
     <div id="wait-page" class="text-center">Loading...</div>
 
-      <a href="editar_perfil.html" class="configuration">
-        <i class="fa fa-cog"></i>&nbsp;&nbsp;Guardar
+      <a href="perfil.html" class="configuration">
+        <i class="glyphicon glyphicon-pencil"></i>&nbsp;&nbsp;Guardar
     </a>
-
-    <a href="home_egresado.html" class="arrow-back"><img src="img/arrow_back.png" width="30px" height="30px"></a>
+    <a href="perfil.html" class="arrow-back">
+      <i class="glyphicon glyphicon-arrow-left"></i>&nbsp;&nbsp;Regresar
+    </a>
 
 
 
@@ -647,5 +657,21 @@
 
     <!-- Configuration app js -->
     <script src="js/app.js"></script>
+
+    <!-- para editar -->
+    <script src="js/bootstrap-editable.js"></script>
+    
+    <!-- creo q no sirve -->
+    <script src="js/address.js"></script>
+    <script src="js/jquery.mockjax.js"></script>
+    <script src="js/select2.js"></script>
+    <script src="js/typeahead.js"></script>
+    <script src="js/typeaheadjs.js"></script>
+    <script src="js/typeahead.js"></script>
+    <!-- fin no sirve -->
+
+    <!-- fin para editar -->
+  
+
     </body>
 </html>
