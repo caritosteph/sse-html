@@ -979,7 +979,7 @@ Main Section Section
 a.configuration {
   position: fixed;
   display: block;
-  top: 70px;
+  top: 150px;
   background: white;
   color: #005580;
   padding: 5px 15px;
@@ -998,7 +998,7 @@ a.configuration {
   -ms-transition: all 0.3s ease 0s;
 }
 a.configuration:hover {
-  width: 130px;
+  width: 90px;
 }
 blockquote {
   line-height: 30px;
