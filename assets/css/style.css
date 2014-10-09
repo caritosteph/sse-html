@@ -222,7 +222,7 @@ ul.top-menu > li > .logout {
 	padding: 5px 15px;
 	margin-right: 15px;
 	background: #235A83;
-	margin-top: 15px;
+	margin-top: 0px;
 }
 
 
@@ -2240,4 +2240,7 @@ label {
     min-height: 900px;
 }
 
+.buscar{
+    margin-top: 5px;
+}
 
