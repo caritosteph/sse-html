@@ -983,9 +983,9 @@ a.configuration {
   background: white;
   color: #005580;
   padding: 5px 15px;
-  font-size: 12px;
+  font-size: 14px;
   width: 40px;
-  z-index: 10;
+  z-index: 12;
   height: 34px;
   overflow: hidden;
   text-decoration: none;
@@ -997,8 +997,22 @@ a.configuration {
   -o-transition: all 0.3s ease 0s;
   -ms-transition: all 0.3s ease 0s;
 }
+
+a.arrow-back{
+  position: fixed;
+  top: 310px;
+  padding: 5px 15px;
+  width: 40px;
+  height: 40px;
+  transition: all 0.3s ease 0s;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  -ms-transition: all 0.3s ease 0s;
+}
+
 a.configuration:hover {
-  width: 90px;
+  width: 100px;
 }
 blockquote {
   line-height: 30px;
