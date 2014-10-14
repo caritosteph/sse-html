@@ -23,13 +23,6 @@
     <!-- para editar -->
     <link href="css/bootstrap-editable.css" rel="stylesheet">
 
-    <!-- creo q no sirven -->
-    <link href="css/address.css" rel="stylesheet">
-    <link href="css/select2-bootstrap.css" rel="stylesheet">
-    <link href="css/select2.css" rel="stylesheet">
-    <link href="css/typeahead.js-bootstrap.css" rel="stylesheet">
-    <!-- fin no sirve -->
-
     <!-- fin para editar -->
 
   <body>
@@ -74,18 +67,10 @@
                 <!-- =========
                 Start Note Slider
                 ===================================-->
+                
                 <div class="box-note">
-                  <div id="slider-note" class="carousel slide" data-ride="carousel" data-interval="10000">
-                    <div class="carousel-inner">
-                      <div class="item active">
-                        <a href="#" id="comments" data-type="textarea" data-pk="1" data-placeholder="Your comments here..." data-title="Enter comments" class="editable editable-pre-wrapped editable-click" style="display: inline; background-color: rgba(0, 0, 0, 0);">
-                          Estudiante de 10mo ciclo de Ingeniería de Software.
-                        Con predisposición para programación web y movil.
-                        </a>
-
-                      </div>
-                    </div>
-                  </div>
+                  <a href="#" id="box" data-type="text" data-placement="rigth"  >
+                    Hola todo el mundo como estan,cualquier cosa envienve correo</a>
                 </div>
                 <!-- =========
                 End Note Slider
@@ -660,18 +645,17 @@
 
     <!-- para editar -->
     <script src="js/bootstrap-editable.js"></script>
-    
-    <!-- creo q no sirve -->
-    <script src="js/address.js"></script>
-    <script src="js/jquery.mockjax.js"></script>
-    <script src="js/select2.js"></script>
-    <script src="js/typeahead.js"></script>
-    <script src="js/typeaheadjs.js"></script>
-    <script src="js/typeahead.js"></script>
-    <!-- fin no sirve -->
-
+    <script>
+    $(function(){
+    $('#box').editable({
+        url: '/post',
+        title: 'Ingrese Mensaje:',
+    });
+});
+      </script>
     <!-- fin para editar -->
-  
+    
+
 
     </body>
 </html>
