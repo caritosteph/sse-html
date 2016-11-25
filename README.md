@@ -3,16 +3,24 @@ Aplicación en el cual los egresados de la Facultad de Software de la Universida
 generando una base de datos de egresados para realizar un estudio de cual es la situación actual de los alumnos en el mercado de software.
 
 ## Tecnologías utilizadas
-####Frontend
+###Frontend
+```
 * Bootstrap
 * HTML
 * CSS
 * Jquery
-#### Backend
+```
+### Backend
+```
 * Spark
 * Java
-#### Base de Datos
+```
+### Base de Datos
+```
 * NuoDB - Base de datos NewSQL
-#### Inteligencia de Negocios
+```
+### Inteligencia de Negocios
+```
 * QlikView
+```
 
